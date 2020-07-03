@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ubx-V0-hgh">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--QuickWeb-->
+        <scene sceneID="5b6-jo-N3h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" toolbarHidden="NO" id="ubx-V0-hgh" customClass="webView" customModule="QuickNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="QuickWeb" image="globe" catalog="system" landscapeImage="globe" largeContentSizeImage="globe" selectedImage="globe" id="Iy6-GR-yYv"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lPA-mh-KQs">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LPf-CH-TtU">
+                        <rect key="frame" x="0.0" y="569" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="YvP-Pp-yhm" kind="relationship" relationship="rootViewController" id="sa5-RC-kh5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqx-t2-aea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2375" y="-2830"/>
+        </scene>
+        <!--WebPage-->
+        <scene sceneID="sLd-Ce-fS0">
+            <objects>
+                <viewController title="WebPage" id="YvP-Pp-yhm" customClass="FirstViewController" customModule="QuickNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FuK-4Y-3Pj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" placeholder="https://" translatesAutoresizingMaskIntoConstraints="NO" id="tUU-YQ-fld">
+                                <rect key="frame" x="0.0" y="0.0" width="416.5" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2aA-tR-ese"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" enablesReturnKeyAutomatically="YES" smartInsertDeleteType="yes" textContentType="url"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YvP-Pp-yhm" id="NRr-Yy-7i4"/>
+                                </connections>
+                            </searchBar>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="8li-zb-sYD">
+                                <rect key="frame" x="189.5" y="233.5" width="37" height="37"/>
+                                <color key="color" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                            <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q1Z-i9-Gco">
+                                <rect key="frame" x="0.0" y="43" width="416.5" height="526"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <wkWebViewConfiguration key="configuration" allowsInlineMediaPlayback="YES">
+                                    <dataDetectorTypes key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" trackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" audio="YES" video="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8li-zb-sYD" firstAttribute="leading" secondItem="T2x-LB-EWe" secondAttribute="leading" constant="189.66666666666666" id="0yZ-SS-Dqj"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="centerX" secondItem="8li-zb-sYD" secondAttribute="centerX" id="2Yf-Lq-Rfn"/>
+                            <constraint firstItem="T2x-LB-EWe" firstAttribute="bottom" secondItem="8li-zb-sYD" secondAttribute="bottom" constant="298.33333333333331" id="5xD-rj-S14"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="centerX" secondItem="FuK-4Y-3Pj" secondAttribute="centerX" id="OGj-dq-D4p"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="leading" secondItem="q1Z-i9-Gco" secondAttribute="leading" id="P9T-ka-eWb"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="top" secondItem="T2x-LB-EWe" secondAttribute="top" id="Q4x-M1-rEP"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="trailing" secondItem="q1Z-i9-Gco" secondAttribute="trailing" id="UNc-QV-spE"/>
+                            <constraint firstItem="8li-zb-sYD" firstAttribute="centerY" secondItem="FuK-4Y-3Pj" secondAttribute="centerY" id="XbT-eA-l2C"/>
+                            <constraint firstItem="tUU-YQ-fld" firstAttribute="leading" secondItem="T2x-LB-EWe" secondAttribute="leading" id="e5M-sX-XyA"/>
+                            <constraint firstItem="q1Z-i9-Gco" firstAttribute="top" secondItem="T2x-LB-EWe" secondAttribute="top" constant="43" id="giH-uB-L1G"/>
+                            <constraint firstItem="q1Z-i9-Gco" firstAttribute="bottom" secondItem="T2x-LB-EWe" secondAttribute="bottom" id="oRQ-og-NQ3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T2x-LB-EWe"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="rewind" id="MjD-T5-3WR">
+                            <connections>
+                                <action selector="back:" destination="YvP-Pp-yhm" id="A9a-gV-jcd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="fastForward" id="AfL-IN-Flk">
+                            <connections>
+                                <action selector="forward:" destination="YvP-Pp-yhm" id="8Wy-UT-3ds"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="egI-cq-9cJ"/>
+                        <barButtonItem image="house" catalog="system" landscapeImage="house" id="PXT-ud-KRd">
+                            <connections>
+                                <action selector="HomeBtn:" destination="YvP-Pp-yhm" id="H0Y-oC-pJQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="7nB-cJ-4lp"/>
+                        <barButtonItem systemItem="refresh" id="ox7-Jy-KYK">
+                            <connections>
+                                <action selector="refresh:" destination="YvP-Pp-yhm" id="sEZ-jD-9pd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="stop" id="YMX-wU-Njd">
+                            <connections>
+                                <action selector="stop:" destination="YvP-Pp-yhm" id="hU2-Ic-pcG"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="51f-1e-Bij"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ActInd" destination="8li-zb-sYD" id="IYQ-qh-MQB"/>
+                        <outlet property="webView" destination="q1Z-i9-Gco" id="9aq-5q-ncF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Vn-oe-GnL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2375" y="-2024"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+    </resources>
+</document>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wep-1W-Tqk">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Help & Support-->
+        <scene sceneID="co0-NG-skh">
+            <objects>
+                <viewController id="Wep-1W-Tqk" customClass="ContactUsViewController" customModule="QuickNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Asz-nm-UtM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bng-Xw-UHv">
+                                <rect key="frame" x="16" y="20" width="343" height="585"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="P6x-QW-cfR">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="488"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kk-nU-dit">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="343" id="LWI-rW-RF2"/>
+                                                    <constraint firstAttribute="height" constant="50" id="pkc-Cw-hYU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
+                                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRe-De-e7J">
+                                                <rect key="frame" x="0.0" y="50" width="343" height="438"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="438" id="EJo-ju-4Af"/>
+                                                    <constraint firstAttribute="width" constant="343" id="efn-dc-4s2"/>
+                                                </constraints>
+                                                <mutableString key="text">Our story takes place on one Australian summer afternoon. I, as Quick Apps's founder realises that there are usually too many apps on an iPhone, which can takes up too much storage space and hinder productivity. I then decided to create apps that you require and actually need on a daily basis, which this value is what sets the difference between us and other similar developers, where our first app Quick Apps's Net - or commonly known as QuickNet, is the best example of what we believe in. With that in mind, we still have a lot of projects in storage and unreleased, which we hope you will enjoy and utilise them in your daily routines. If you have an inquiry about any products, apps, projects, or anything in particular, do send us an Email inquiry via the link below. Make sure your Email is connected to the Email app to be able to launch the mail composing window. However, if Emailing us is not the best method for you, you can find our platforms through our website below. From all of us at Quick Apps. Thank You for using our services, we hope you have a great day.</mutableString>
+                                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="c0X-J3-Z3k">
+                                        <rect key="frame" x="0.0" y="488" width="343" height="97"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ei-Dn-ohg">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YT9-uE-02Z">
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="BrX-2V-zxl"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                        <state key="normal" title="Quick Apps's Website">
+                                                            <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="5GO-S0-R6e" kind="show" id="gWF-Yg-ETw"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Je9-P4-nYq">
+                                                <rect key="frame" x="0.0" y="50" width="343" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="47" id="5k0-jd-rxp"/>
+                                                    <constraint firstAttribute="width" constant="343" id="x1B-df-LsP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
+                                                <state key="normal" title="Write To Quick Apps"/>
+                                                <connections>
+                                                    <action selector="emailButtonTapped:" destination="Wep-1W-Tqk" eventType="touchUpInside" id="dDz-Q2-NGE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bng-Xw-UHv" firstAttribute="leading" secondItem="Asz-nm-UtM" secondAttribute="leadingMargin" id="jIV-HK-Pce"/>
+                            <constraint firstItem="bng-Xw-UHv" firstAttribute="top" secondItem="DXm-hR-n4c" secondAttribute="top" constant="20" id="pe4-Az-tSZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DXm-hR-n4c"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help &amp; Support" image="questionmark" catalog="system" landscapeImage="questionmark" selectedImage="questionmark" id="8fh-r0-tRk"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yld-ay-DQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.200000000000003" y="57.121439280359823"/>
+        </scene>
+        <!--WebPage-->
+        <scene sceneID="jnd-rB-TGb">
+            <objects>
+                <viewController title="WebPage" id="5GO-S0-R6e" customClass="OnlineSupportViewController" customModule="QuickNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bt-E4-eWR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3m3-3K-Yce">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <wkWebViewConfiguration key="configuration" allowsInlineMediaPlayback="YES">
+                                    <dataDetectorTypes key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" trackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" audio="YES" video="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVq-bf-eJo">
+                                <rect key="frame" x="0.0" y="597" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ySV-co-oX3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Enjoying QuickNet? Support us on the App Store."/>
+                                <connections>
+                                    <action selector="requestReviewManually" destination="5GO-S0-R6e" eventType="touchUpInside" id="AcC-MN-u4q"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L74-kB-GaR">
+                                <rect key="frame" x="0.0" y="553" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="am9-Jt-NpY">
+                                        <connections>
+                                            <action selector="back:" destination="5GO-S0-R6e" id="LoA-dA-300"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Jxx-8g-nuV"/>
+                                    <barButtonItem image="house" catalog="system" landscapeImage="house" id="HuB-XV-rAP">
+                                        <connections>
+                                            <action selector="HomeBtn:" destination="5GO-S0-R6e" id="RPV-RV-Ueh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bJ0-p6-ozj"/>
+                                    <barButtonItem systemItem="fastForward" id="1b5-Um-cJi">
+                                        <connections>
+                                            <action selector="forward:" destination="5GO-S0-R6e" id="Cyp-e5-LXH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3m3-3K-Yce" firstAttribute="leading" secondItem="ie8-QE-nAK" secondAttribute="leading" id="5cz-rE-r3R"/>
+                            <constraint firstItem="3m3-3K-Yce" firstAttribute="leading" secondItem="L74-kB-GaR" secondAttribute="leading" id="5yW-kX-yNo"/>
+                            <constraint firstItem="L74-kB-GaR" firstAttribute="trailing" secondItem="tVq-bf-eJo" secondAttribute="trailing" id="FjC-VC-LdR"/>
+                            <constraint firstItem="L74-kB-GaR" firstAttribute="top" secondItem="3m3-3K-Yce" secondAttribute="bottom" id="TRq-uO-yi8"/>
+                            <constraint firstItem="3m3-3K-Yce" firstAttribute="top" secondItem="ie8-QE-nAK" secondAttribute="top" id="g15-3b-8Ve"/>
+                            <constraint firstItem="tVq-bf-eJo" firstAttribute="top" secondItem="L74-kB-GaR" secondAttribute="bottom" id="gVr-ic-UxP"/>
+                            <constraint firstItem="3m3-3K-Yce" firstAttribute="trailing" secondItem="L74-kB-GaR" secondAttribute="trailing" id="kL7-kz-IQ3"/>
+                            <constraint firstItem="tVq-bf-eJo" firstAttribute="bottom" secondItem="ie8-QE-nAK" secondAttribute="bottom" id="lfG-vW-Vmh"/>
+                            <constraint firstItem="3m3-3K-Yce" firstAttribute="centerX" secondItem="8bt-E4-eWR" secondAttribute="centerX" id="rcO-ei-GGr"/>
+                            <constraint firstItem="L74-kB-GaR" firstAttribute="leading" secondItem="tVq-bf-eJo" secondAttribute="leading" id="sU0-8D-2pc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ie8-QE-nAK"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Bkw-LN-93b"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webView" destination="3m3-3K-Yce" id="xhr-Sd-VAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vlc-B6-hFk" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="-372.86356821589209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="questionmark" catalog="system" width="48" height="64"/>
+    </resources>
+</document>
