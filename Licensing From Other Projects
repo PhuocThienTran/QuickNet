@@ -1,0 +1,37 @@
+Several projects were required to build QuickNet, thus licensing were investigated and are as followed:
+
+QuickLearn:
+Copyright (c) 2017 Peter Yaacoub. May be used free of charge. Selling without prior written consent prohibited. 
+Obtain permission before redistributing. In all cases, this notice must remain intact.
+
+QuickNews:
+MIT License
+
+Copyright (c) 2019 Nikhil Bolar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+QuickGames were obtained as open sources.
+
+QuickSky: No licensing were discovered.
+
+Even though open sources and no licensing could not be properly stated here, they were all acknowledged in the README File. 
+Therefore, Quick Inc. would like to express the deepest gratitude to those stated, which made QuickNet a possibility. 
+
+Thank You. 
