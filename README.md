@@ -27,3 +27,10 @@ Peter Yaacoub - Dictonary Project
 ### This app can be found on the App Store: [QuickNet](https://apps.apple.com/au/app/quick-appss-net/id1489780396)
 A more cost effective alternative of this app comes in an app bundle. It features QuickNet and [QuickFix](https://github.com/PhuocThienTran/QuickFix)
 #### The app bundle can be found on the App Store: [Quick Apps](https://apps.apple.com/au/app-bundle/quick-apps/id1505694713)
+
+### Enjoying this repository? Kindly support me with some spare change, as I'm still a husttling university student!
+  [
+    ![Donate with PayPal]
+    (https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)
+  ]
+  (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y)
