@@ -28,7 +28,7 @@ Peter Yaacoub - Dictonary Project
 A more cost effective alternative of this app comes in an app bundle. It features QuickNet and [QuickFix](https://github.com/PhuocThienTran/QuickFix)
 ### The app bundle can be found on the App Store: [Quick Apps](https://apps.apple.com/au/app-bundle/quick-apps/id1505694713)
 
-### Enjoying this repository? Kindly support me with some spare change, as I'm still a husttling university student!
+#### Enjoying this repository? Kindly support me with some spare change, as I'm still a husttling university student!
   <a href="https://www.paypal.me/thientran2702"><img src="blue.svg" height="40"></a>  
 <p>PayPal is a registered trademark of PayPal, Inc. The PayPal logo is a trademark of PayPal, Inc.</p>
 
