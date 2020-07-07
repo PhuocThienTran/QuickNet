@@ -24,9 +24,9 @@ Jake Lin - Game Projects
 
 Peter Yaacoub - Dictonary Project
 
-### This app can be found on the App Store: [QuickNet](https://apps.apple.com/au/app/quick-appss-net/id1489780396)
+## This app can be found on the App Store: [QuickNet](https://apps.apple.com/au/app/quick-appss-net/id1489780396)
 A more cost effective alternative of this app comes in an app bundle. It features QuickNet and [QuickFix](https://github.com/PhuocThienTran/QuickFix)
-#### The app bundle can be found on the App Store: [Quick Apps](https://apps.apple.com/au/app-bundle/quick-apps/id1505694713)
+### The app bundle can be found on the App Store: [Quick Apps](https://apps.apple.com/au/app-bundle/quick-apps/id1505694713)
 
 ### Enjoying this repository? Kindly support me with some spare change, as I'm still a husttling university student!
   <a href="https://www.paypal.me/thientran2702"><img src="blue.svg" height="40"></a>  
