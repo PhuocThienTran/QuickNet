@@ -36,4 +36,4 @@ Peter Yaacoub - Dictonary Project
   <a href="https://www.paypal.me/thientran2702"><img src="blue.svg" height="40"></a>  
 <p>PayPal is a registered trademark of PayPal, Inc. The PayPal logo is a trademark of PayPal, Inc.</p>
 
-###### <p align="center">A Message: Trường Sa và Hoàng Sa là của Việt Nam.</p>
+###### <p align="center"> <br> A Message: Trường Sa và Hoàng Sa là của Việt Nam.</p>
